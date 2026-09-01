@@ -9,6 +9,10 @@ const bcrypt = require("bcryptjs");
 const multer = require("multer");
 
 const app = express();
+const MONGODB_URI = process.env.MONGODB_URI;
+const MONGODB_URI = process.env.MONGODB_URI;
+const MONGODB_URI = process.env.MONGODB_URI;
+const MONGODB_URI = process.env.MONGODB_URI;
 const PORT = process.env.PORT || 3000;
 const JWT_SECRET = process.env.JWT_SECRET || "placement-system-secret";
 const UPLOAD_DIR = path.join(__dirname, "uploads");
